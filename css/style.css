@@ -208,6 +208,10 @@ header {
 	text-align: center;
 }
 
+header > .logo >h1, header > .logo > h2  {
+	display:inline;
+}
+
 #main {
 	/* background: green; */
 }
@@ -295,9 +299,6 @@ footer {
 }
 
 
-h1, h2 {
-	display: inline;
-}
 
 
 /* Containers
