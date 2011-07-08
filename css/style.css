@@ -257,6 +257,49 @@ footer {
     display: block;
 }
 
+
+
+@font-face {
+    font-family: 'geo';
+    src: url('../fonts/geometric_415_black_bt-webfont.eot');
+    src: url('../fonts/geometric_415_black_bt-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/geometric_415_black_bt-webfont.woff') format('woff'),
+         url('../fonts/geometric_415_black_bt-webfont.ttf') format('truetype'),
+         url('../fonts/geometric_415_black_bt-webfont.svg#Geometr415BlkBTBlack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'geo-light';
+    src: url('../fonts/geometric_415_lite_bt-webfont.eot');
+    src: url('../fonts/geometric_415_lite_bt-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/geometric_415_lite_bt-webfont.woff') format('woff'),
+         url('../fonts/geometric_415_lite_bt-webfont.ttf') format('truetype'),
+         url('../fonts/geometric_415_lite_bt-webfont.svg#Geometr415LtBTLite') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.geo-light {
+	font-family: geo-light, helvetica, arial;
+	text-transform:uppercase;
+	letter-spacing:7px;
+}
+.geo{
+	font-family: geo, helvetica, arial;
+	text-transform:uppercase;
+	letter-spacing:7px;
+}
+
+
+h1, h2 {
+	display: inline;
+}
+
+
 /* Containers
 ----------------------------------------------------------------------------------------------------*/
 
